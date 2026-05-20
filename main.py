@@ -12,8 +12,8 @@ API_TOKEN = '8828787421:AAE6WlNSj6Bw6I01ZZUv2YyrzQ1s3aid9zg'
 bot = telebot.TeleBot(API_TOKEN)
 
 # ⚠️ এই আইডি দুটি অবশ্যই আপনার নিজস্ব গ্রুপের আইডি দিয়ে বদলে নিবেন ভাই
-GMAIL_GROUP_ID = -5231446702       
-WITHDRAW_GROUP_ID = -5291146876    
+GMAIL_GROUP_ID = -1003951801755       
+WITHDRAW_GROUP_ID = -1003929483102    
 
 # সবার জন্য ফিক্সড পাসওয়ার্ড
 FIXED_PASSWORD = "Blacknoob8"
