@@ -7,11 +7,11 @@ import string
 from flask import Flask
 from threading import Thread
 
-# বটের রিসেট করা ফ্রেশ টোকেন
+# বটের ফ্রেশ টোকেন
 API_TOKEN = '8828787421:AAE6WlNSj6Bw6I01ZZUv2YyrzQ1s3aid9zg'
 bot = telebot.TeleBot(API_TOKEN)
 
-# 🟢 আপনার আসল গ্রুপ আইডি এবং চ্যাট লিংক এখানে সেট করা হয়েছে ভাই
+# 🟢 আপনার আসল গ্রুপ আইডি এবং চ্যাট লিংক এখানে সেট করা আছে ভাই
 GMAIL_GROUP_ID = -1003929483102       
 WITHDRAW_GROUP_ID = -1003951801755    
 SUPPORT_GROUP_LINK = "https://t.me/suportgrup12" 
