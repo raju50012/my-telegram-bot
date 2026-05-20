@@ -6,7 +6,7 @@ from flask import Flask
 from threading import Thread
 
 # বটের টোকেন ও গ্রুপ আইডি
-API_TOKEN = '8828787421:AAHYwuohqRfc0mqy3VRKWofUKhworwmBO7Y'
+API_TOKEN = '8828787421:AAE6WlNSj6Bw6I01ZZUv2YyrzQ1s3aid9zg'
 bot = telebot.TeleBot(API_TOKEN)
 
 GMAIL_GROUP_ID = -5231446702       
