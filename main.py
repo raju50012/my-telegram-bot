@@ -11,10 +11,10 @@ from threading import Thread
 API_TOKEN = '8828787421:AAE6WlNSj6Bw6I01ZZUv2YyrzQ1s3aid9zg'
 bot = telebot.TeleBot(API_TOKEN)
 
-# 🟢 আপনার আসল গ্রুপ আইডি এবং চ্যাট লিংক এখানে সেট করা আছে ভাই
+# 🟢 আপনার আসল গ্রুপ আইডি এবং নতুন চ্যাট লিংক
 GMAIL_GROUP_ID = -1003929483102       
 WITHDRAW_GROUP_ID = -1003951801755    
-SUPPORT_GROUP_LINK = "https://t.me/suportgrup12" 
+SUPPORT_GROUP_LINK = "https://t.me/suportgrup9228" # 🟢 নতুন লিংক এখানে আপডেট করা হয়েছে
 
 # সবার জন্য ফিক্সড পাসওয়ার্ড
 FIXED_PASSWORD = "Blacknoob8"
@@ -81,7 +81,7 @@ def handle_menu(message):
         text = f"📝 **আপনার জন্য নতুন কাজের তথ্য:**\n\n" \
                f"📧 **জিমেইল:** `{gmail}`\n" \
                f"🔑 **পাসওয়ার্ড:** `{FIXED_PASSWORD}`\n\n" \
-               f"⚠️ **নির্দেশনা:** ওপরের জিমেইল এবং ফিক্সড পাসওয়ার্ডটি হুবху ব্যবহার করে অ্যাকাউন্টটি তৈরি করুন। তৈরি করা হয়ে গেলে নিচের বাটনে ক্লিক করে সাবমিট করুন।"
+               f"⚠️ **নির্দেশনা:** ওপরের জিমেইল এবং ফিক্সড পাসওয়ার্ডটি হুবহু ব্যবহার করে অ্যাকাউন্টটি তৈরি করুন। তৈরি করা হয়ে গেলে নিচের বাটনে ক্লিক করে সাবমিট করুন।"
         
         markup = types.InlineKeyboardMarkup()
         markup.add(types.InlineKeyboardButton("✅ অ্যাকাউন্ট খোলা শেষ (সাবমিট করুন)", callback_data=f"user_submit_{gmail}"))
@@ -139,7 +139,7 @@ def process_final_withdraw(message, method, amount):
     except:
         bot.send_message(message.chat.id, "❌ উইথড্র গ্রুপ সেটিংস জনিত সমস্যা!")
 
-# ---- বোবাম ক্লিকের ব্যাকএন্ড হ্যান্ডলার ----
+# ---- বোতাম ক্লিকের ব্যাকএন্ড হ্যান্ডলার ----
 @bot.callback_query_handler(func=lambda call: True)
 def handle_callback(call):
     data = call.data
